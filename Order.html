@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <style>
+        body {
+            background-image: url('order.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .ordernow {
+            color: white;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        input[type="email"] {
+            margin: 1rem;
+        }
+
+        .menud {
+            padding: 4px;
+            text-align: center;
+            background-color: floralwhite;
+            border-radius: 5px;
+        }
+
+        option {
+            display: block;
+        }
+
+        .submit {
+            background-color: pink;
+            border-radius: 5px;
+            padding: 3px;
+            margin-left: 5px;
+            font-weight: bold;
+        }
+
+        .submit:hover {
+            padding: 5px;
+            background-color: hotpink;
+        }
+
+        .float {
+            float: right;
+            color: white;
+        }
+    </style>
+    <script>
+        function fun() {
+            var location = document.forms.regform.name.location
+            var email = document.forms.regform.name.email
+            var number = document.forms.regform.name.phone
+            var pincode = document.forms.regform.name.PinCode
+        }
+    </script>
+</head>
+
+<body>
+    <h1 class="ordernow">Order Page</h1>
+    <form class="regform">
+        <div class="Menu float">
+            Menu <select class="menud">
+                <option>Menu 1</option>
+                <option>Menu 2</option>
+                <option>Menu 3</option>
+                <option>Special Menu</option>
+            </select><br><br>
+            <div class="float">
+                Location<input type="text" name="Location"><br>
+                Phone Number <input type="number" name="phone"><br>
+                Email<input type="text" name="email"><br>
+            </div><br><br>
+            PinCode<input type="number" name="PinCode"><br>
+            <input type="submit" value="Order Now" class="submit">
+        </div>
+    </form>
+</body>
+
+</html>

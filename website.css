@@ -1,0 +1,63 @@
+body {
+    background-image: url('bg.jpg');
+    background-color: white;
+}
+
+#heading {
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    border: none;
+    font-size: 40px;
+}
+
+nav {
+    text-align: center;
+    border-radius: 50px;
+    padding: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a:hover {
+    color: black;
+    font-size: 25px;
+}
+
+.regfont {
+    font-weight: 700;
+    font-size: 25px;
+    font-family: Solway;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+#order {
+    color: greenyellow;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#order:hover {
+    color: orangered;
+    font-size: 2.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: x-large;
+    color: lightgray;
+}
